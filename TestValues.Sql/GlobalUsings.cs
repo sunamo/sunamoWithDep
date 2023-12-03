@@ -1,0 +1,12 @@
+﻿global using SunamoSqlServer.Enums;
+global using System.Collections.Generic;
+global using System.Data.SqlClient;
+global using System.Linq;
+global using System.Reflection;
+global using System.Runtime.CompilerServices;
+global using System.Runtime.InteropServices;
+global using System.Text;
+global using System.Threading.Tasks;
+global using System;
+global using sunamo.Loaders;
+global using System.Runtime.Intrinsics.X86;
