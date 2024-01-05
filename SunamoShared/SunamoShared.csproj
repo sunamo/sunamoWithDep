@@ -1,0 +1,62 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Version>24.1.4.1</Version>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="_sunamo\**" />
+    <EmbeddedResource Remove="_sunamo\**" />
+    <None Remove="_sunamo\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="C:\Users\r\.nuget\packages\sunamoxlf\23.12.9.1\contentFiles\any\net8.0\WinSec\Readme.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="SunamoCollections" Version="24.1.1.3" />
+    <PackageReference Include="SunamoData" Version="24.1.1.1" />
+    <PackageReference Include="SunamoDateTime" Version="24.1.1.1" />
+    <PackageReference Include="SunamoEnums" Version="23.12.22.1" />
+    <PackageReference Include="SunamoEnumsHelper" Version="24.1.1.1" />
+    <PackageReference Include="SunamoExtensions" Version="23.12.25.2" />
+    <PackageReference Include="SunamoFIleSystem" Version="24.1.1.3" />
+    <PackageReference Include="SunamoGoogleSheets" Version="23.12.25.1" />
+    <PackageReference Include="SunamoHtml" Version="24.1.1.1" />
+    <PackageReference Include="SunamoLogMessage" Version="24.1.1.1" />
+    <PackageReference Include="SunamoObjectDumperNet" Version="*" />
+    <PackageReference Include="SunamoPlatformUwpInterop" Version="24.1.1.1" />
+    <PackageReference Include="SunamoReflection" Version="24.1.1.1" />
+    <PackageReference Include="SunamoString" Version="24.1.1.1" />
+    <PackageReference Include="SunamoThisApp" Version="23.12.20.2" />
+    <PackageReference Include="SunamoUri" Version="23.12.26.1" />
+    <PackageReference Include="SunamoXlf" Version="23.12.9.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="SunamoExceptions" Version="24.1.1.3" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Diacritics" Version="3.3.20-pre" />
+    <PackageReference Include="HtmlAgilityPack" Version="1.11.57" />
+    <PackageReference Include="ObjectDumper.NET" Version="4.1.13-pre" />
+    <PackageReference Include="SunamoLang" Version="23.12.9.1" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="8.0.0" />
+    <PackageReference Include="System.Diagnostics.EventLog" Version="8.0.0" />
+    <PackageReference Include="System.Management" Version="8.0.0" />
+    <PackageReference Include="System.Security.Cryptography.ProtectedData" Version="8.0.0">
+    </PackageReference>
+    <PackageReference Include="System.Security.Permissions" Version="8.0.0" />
+    <PackageReference Include="YamlDotNet" Version="13.7.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="MultilingualResources\sunamo.cs-CZ.min.xlf" />
+    <EmbeddedResource Include="MultilingualResources\sunamo.cs-CZ.xlf" />
+    <EmbeddedResource Include="MultilingualResources\sunamo.en-US.min.xlf" />
+    <EmbeddedResource Include="MultilingualResources\sunamo.en-US.xlf" />
+  </ItemGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DefineConstants>$(DefineConstants);ASYNC</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DefineConstants>$(DefineConstants);ASYNC</DefineConstants>
+  </PropertyGroup>
+</Project>

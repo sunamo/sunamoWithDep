@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Version>24.1.5.1</Version>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="SunamoCollectionsGeneric" Version="24.1.4.1" />
+    <PackageReference Include="SunamoRegex" Version="24.1.4.1" />
+    <PackageReference Include="SunamoStringData" Version="24.1.5.3" />
+  </ItemGroup>
+</Project>

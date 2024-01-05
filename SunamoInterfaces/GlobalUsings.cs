@@ -1,0 +1,17 @@
+global using System.Collections.Generic;
+global using System.Linq;
+global using System.Text;
+global using System.Threading.Tasks;
+global using System;
+global using System.Collections;
+global using SunamoValues;
+global using SunamoInterfaces.Interfaces;
+global using SunamoEnums.Enums;
+global using System.Xml.Linq;
+global using SunamoArgs;
+global using SunamoTextBuilder;
+global using HtmlAgilityPack;
+global using Newtonsoft.Json;
+global using System.Runtime.InteropServices;
+global using SunamoTextOutputGeneratorShared;
+global using SunamoDelegates;

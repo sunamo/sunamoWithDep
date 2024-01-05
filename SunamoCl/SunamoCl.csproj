@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Description>Methods for show Countdown and other UI in cmd</Description>
+    <PackRelease>true</PackRelease>
+    <IsPackable>true</IsPackable>
+    <Version>23.12.9.2</Version>
+    <PackageIcon>_.png</PackageIcon>
+    <PackageTags>console</PackageTags>
+    <Authors>www.sunamo.cz</Authors>
+    <PackageReadmeFile>_.md</PackageReadmeFile>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DefineConstants>$(DefineConstants);ASYNC</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DefineConstants>$(DefineConstants);ASYNC</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="SunamoExceptions" Version="24.1.1.3" />
+    <PackageReference Include="SunamoShared" Version="23.12.17.2" />
+    <None Include="_.png" Pack="true" PackagePath="" />
+    <None Include="_.md" Pack="true" PackagePath="" />
+  </ItemGroup>
+</Project>

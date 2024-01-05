@@ -1,0 +1,14 @@
+global using System.Collections.Generic;
+global using System.Linq;
+global using System.Text;
+global using System;
+global using SunamoExceptions.OnlyInSE;
+global using SunamoInterfaces.Interfaces;
+global using SunamoStringSplit;
+global using System.Data;
+global using System.Text.RegularExpressions;
+global using SunamoData.Data;
+global using SunamoI18N;
+global using sunamo;
+global using SunamoConverters._sunamo;
+global using SunamoStringReplace;

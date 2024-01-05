@@ -1,0 +1,8 @@
+﻿Na postupné smazání
+To je fakt cesta do pekel, protože jedna metoda přináší další metodu.
+Potom už nedělám nic jiného než že jen přesouvám z jednoho souboru do druhého a furt něco chybí, něco nesedí. 
+Krom toho, když furt přejmenovávám nějakou třídu např. na postfix SE, stane se že ji přejmenuji i tam kde nemám. Musím to opravovat ale dát pozor ať zůstane přejmenovaná tam kde zůstat má.
+
+Ono to je jednoduché. Stačí mít 1 soubor pro 1 třídu bez postfixů. atd. Žádné kopírování, nic napříč assemblies, to zavání jen průserem jak brno a zbytečně si to komplikuji. Kvůli úspoře chvilky že nemám zduplikovaný kód mi to bere mnohem více času když se to potom snažím dát dohromady a vyznat se v tom.
+
+Do toho se mi ty soubory občas špatně zkopírují ve VS, takže je tam mám najednou 2x. Často to kopíruji do složky aniž bych vytvořil podsložku. Pak musím porovnávat abych zjistil co můžu smazat. 

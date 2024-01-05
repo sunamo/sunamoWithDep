@@ -1,0 +1,4 @@
+už není potřeba, budu mít jen 1 PS na .net.
+
+Zbytečně by se mi to pletlo, protože by tam byly 4x2 stejně pojmenované třídy.
+
